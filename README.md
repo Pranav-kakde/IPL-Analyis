@@ -1,101 +1,172 @@
 🏏 IPL Analysis Dashboard (2008–2025) | Power BI
-🔍 Project Overview
+📌 Project Introduction
 
-This project presents an end-to-end analysis of the Indian Premier League (IPL) from 2008 to 2025 using Power BI. The dashboard provides interactive insights into team performance, season outcomes, player achievements, and tournament statistics to help users understand trends and patterns across IPL seasons.
+The Indian Premier League (IPL) is one of the most data-rich and competitive cricket tournaments in the world. Over the years, IPL has generated massive volumes of match, team, and player-level data.
+This project aims to transform raw IPL data (2008–2025) into a clean, interactive, and insight-driven Power BI dashboard that allows users to explore season-wise performance, team standings, and individual player achievements with ease.
 
-🎯 Objective
+The dashboard is designed for cricket enthusiasts, analysts, and decision-makers who want a quick yet comprehensive understanding of IPL trends across seasons.
 
-Analyze IPL performance across multiple seasons
+🎯 Business & Analytical Objectives
 
-Identify top-performing teams and players
+The main objectives of this project are:
 
-Track key batting and bowling statistics
+To perform season-wise analysis of IPL from 2008 to 2025
 
-Provide an interactive, season-wise analytical dashboard
+To identify top-performing teams based on points, wins, and rankings
 
-🗂 Dataset
+To analyze player performance using batting and bowling statistics
 
-Source: Public IPL datasets (CSV/Excel format)
+To summarize each season using key KPIs and highlights
 
-Data includes:
+To build an interactive dashboard that supports filtering and drill-down
 
-Match results
+🗂 Data Description
 
-Team performance
+Data Source: Publicly available IPL datasets
 
-Player statistics (runs, wickets, fours, sixes)
+File Format: CSV / Excel
 
-Season-wise points table
+Granularity: Match-level and player-level data
 
-📊 Key Metrics & KPIs
+Time Period Covered: 2008 – 2025
 
-Total Matches Played
+Data Includes:
 
-Total Teams Participated
+Match results and season outcomes
 
-Total 4s & 6s
+Team participation and points table
 
-Total Centuries & Half-Centuries
+Player runs, wickets, fours, and sixes
 
-Season Champions & Runners-up
+Awards such as Orange Cap and Purple Cap
 
-Orange Cap (Top Run Scorer)
+🔄 Data Cleaning & Transformation
 
-Purple Cap (Top Wicket Taker)
+Data preprocessing was carried out using Power Query, which included:
 
-📈 Dashboard Features
+Removing duplicate and irrelevant columns
 
-🎯 Season Slicer (2008–2025) for dynamic analysis
+Standardizing team and player names
 
-🏆 Champions & Runner-up display per season
+Handling missing and inconsistent values
 
-📌 KPI Cards for quick tournament summary
+Creating season-wise relationships between tables
 
-🟠 Orange Cap & 🟣 Purple Cap player statistics
+Preparing clean fact and dimension tables for modeling
 
-📋 Interactive Points Table with rankings
+🧠 Data Modeling
 
-🔄 Cross-filtering enabled across visuals
+Star-schema style modeling for better performance
 
-🔎 Sample Insights (2025 Season)
+Relationships established between:
 
-Royal Challengers Bangalore emerged as Champions
+Matches
+
+Teams
+
+Players
+
+Seasons
+
+Optimized data model to ensure fast slicer interactions
+
+📊 Key KPIs & Metrics
+
+The dashboard tracks several important IPL metrics:
+
+🏟 Total Matches Played
+
+👥 Total Teams Participated
+
+🔥 Total Sixes & Fours
+
+💯 Total Centuries
+
+50️⃣ Total Half-Centuries
+
+🏆 Season Champion
+
+🥈 Season Runner-Up
+
+🏅 Player Performance Analysis
+🟠 Orange Cap (Top Run Scorer)
+
+Displays player name, total runs, and team
+
+Dynamically updates based on selected season
+
+🟣 Purple Cap (Top Wicket Taker)
+
+Displays highest wicket taker per season
+
+Includes player name, wickets taken, and team
+
+Boundary Analysis
+
+Player with most fours
+
+Player with most sixes
+
+📋 Team Performance & Points Table
+
+Interactive points table showing:
+
+Matches played
+
+Wins, losses, ties, and no-results
+
+Total points
+
+Teams are ranked dynamically based on selected season
+
+Helps compare team consistency and dominance
+
+🎛 Dashboard Interactivity
+
+The dashboard includes several interactive features:
+
+🎯 Season slicer (2008–2025) for dynamic filtering
+
+Cross-filtering between visuals
+
+Responsive KPI cards that update instantly
+
+Clean layout designed for storytelling
+
+🔍 Sample Insights (2025 Season)
+
+Royal Challengers Bangalore emerged as IPL Champions 2025
 
 Punjab Kings finished as Runners-up
 
+Gujarat Titans dominated individual awards
+
 B Sai Sudharsan scored the highest runs (759)
 
-M Prasidh Krishna claimed the most wickets (25)
+M Prasidh Krishna took the most wickets (25)
 
-Gujarat Titans dominated individual player performances
+High boundary count indicates aggressive batting trends
 
-🛠 Tools & Technologies
+🛠 Tools & Technologies Used
 
-Power BI
+Power BI – Dashboard development & visualization
 
-Power Query (Data Cleaning & Transformation)
+Power Query – Data cleaning & transformation
 
-DAX (Calculated Measures & KPIs)
+DAX – Measures, KPIs, and calculated fields
 
-Excel / CSV
+Excel / CSV – Raw data storage
 
-📷 Dashboard Preview
+🚀 Key Learnings & Skills Gained
 
-(Add screenshots of the dashboard here)
+End-to-end Power BI project development
 
-🚀 What I Learned
+Sports analytics using real-world data
 
-Designing complex multi-page Power BI dashboards
+Writing efficient DAX measures
 
-Writing efficient DAX for sports analytics
+Handling slicer interactions and filters
 
-Managing slicer interactions and cross-filtering
+Designing clean, professional dashboards
 
-Creating visually appealing, insight-driven reports
-
-Converting raw sports data into business-style insights
-
-📌 Author
-
-Pranav Kakde
-Data Analytics & Power BI Enthusiast
+Translating raw data into meaningful insights
